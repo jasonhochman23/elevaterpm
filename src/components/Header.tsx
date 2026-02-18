@@ -125,7 +125,7 @@ export default function Header() {
                 rel="noopener noreferrer"
                 className="btn btn-primary"
               >
-                Book a Free Strategy Call
+                Book a Free Call
               </a>
             </div>
 

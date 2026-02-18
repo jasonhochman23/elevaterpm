@@ -29,8 +29,8 @@ const steps = [
   },
   {
     title: "We Build Personalized Care Plans",
-    body: "Our licensed Respiratory Therapist creates an individualized care plan for every enrolled patient - setting health goals, defining escalation protocols, and establishing a rhythm of regular clinical contact.",
-    tag: "Licensed RT, not a call center agent",
+    body: "Our licensed clinical staff creates an individualized care plan for every enrolled patient - setting health goals, defining escalation protocols, and establishing a rhythm of regular clinical contact.",
+    tag: "Licensed clinicians, not call center agents",
   },
   {
     title: "We Keep Patients Engaged",
@@ -51,41 +51,66 @@ const steps = [
 
 const features = [
   {
-    icon: "👩‍⚕️",
+    icon: (
+      <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+        <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
+      </svg>
+    ),
     title: "Licensed Clinical Staff",
-    body: "A credentialed Respiratory Therapist manages your program - building real relationships with your patients through consistent, personalized care.",
+    body: "Credentialed clinicians manage your program - building real relationships with your patients through consistent, personalized care.",
   },
   {
-    icon: "❤️",
+    icon: (
+      <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+        <path strokeLinecap="round" strokeLinejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
+      </svg>
+    ),
     title: "Patient-Centered Approach",
     body: "We focus on keeping patients engaged and healthy. When patients feel supported, they stay in the program and see better outcomes.",
   },
   {
-    icon: "📋",
+    icon: (
+      <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+        <path strokeLinecap="round" strokeLinejoin="round" d="M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25 0 002.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 00-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75 2.25 2.25 0 00-.1-.664m-5.8 0A2.251 2.251 0 0113.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m0 0H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125H8.25zM6.75 12h.008v.008H6.75V12zm0 3h.008v.008H6.75V15zm0 3h.008v.008H6.75V18z" />
+      </svg>
+    ),
     title: "Care Plan Management",
     body: "Every patient gets a personalized care plan. Every touchpoint is documented. Every clinical update goes back to your practice.",
   },
   {
-    icon: "🤝",
-    title: "Extension of Your Practice",
-    body: "We operate under your brand, your protocols, your clinical standards. Patients experience us as part of your care team - because we are.",
+    icon: (
+      <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+        <path strokeLinecap="round" strokeLinejoin="round" d="M9.594 3.94c.09-.542.56-.94 1.11-.94h2.593c.55 0 1.02.398 1.11.94l.213 1.281c.063.374.313.686.645.87.074.04.147.083.22.127.324.196.72.257 1.075.124l1.217-.456a1.125 1.125 0 011.37.49l1.296 2.247a1.125 1.125 0 01-.26 1.431l-1.003.827c-.293.24-.438.613-.431.992a6.759 6.759 0 010 .255c-.007.378.138.75.43.99l1.005.828c.424.35.534.954.26 1.43l-1.298 2.247a1.125 1.125 0 01-1.369.491l-1.217-.456c-.355-.133-.75-.072-1.076.124a6.57 6.57 0 01-.22.128c-.331.183-.581.495-.644.869l-.213 1.28c-.09.543-.56.941-1.11.941h-2.594c-.55 0-1.02-.398-1.11-.94l-.213-1.281c-.062-.374-.312-.686-.644-.87a6.52 6.52 0 01-.22-.127c-.325-.196-.72-.257-1.076-.124l-1.217.456a1.125 1.125 0 01-1.369-.49l-1.297-2.247a1.125 1.125 0 01.26-1.431l1.004-.827c.292-.24.437-.613.43-.992a6.932 6.932 0 010-.255c.007-.378-.138-.75-.43-.99l-1.004-.828a1.125 1.125 0 01-.26-1.43l1.297-2.247a1.125 1.125 0 011.37-.491l1.216.456c.356.133.751.072 1.076-.124.072-.044.146-.087.22-.128.332-.183.582-.495.644-.869l.214-1.281z" />
+        <path strokeLinecap="round" strokeLinejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+      </svg>
+    ),
+    title: "Device & Disease Agnostic",
+    body: "We work with any RPM or RTM program - regardless of device type or patient population. Our approach adapts to your existing setup.",
   },
   {
-    icon: "📊",
+    icon: (
+      <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+        <path strokeLinecap="round" strokeLinejoin="round" d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 013 19.875v-6.75zM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V8.625zM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V4.125z" />
+      </svg>
+    ),
     title: "Program Visibility",
     body: "No more guessing. Monthly reports show patient engagement, retention metrics, and clinical activity at a glance.",
   },
   {
-    icon: "💰",
-    title: "Aligned Incentives",
-    body: "No setup fees or long-term contracts. You pay only for the care time we deliver - our success is tied to your program's success.",
+    icon: (
+      <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+        <path strokeLinecap="round" strokeLinejoin="round" d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z" />
+      </svg>
+    ),
+    title: "Extension of Your Practice",
+    body: "We operate under your brand, your protocols, your clinical standards. Patients experience us as part of your care team.",
   },
 ];
 
 const outcomes = [
   { label: "Patient Retention", without: "45-55%", with: "80-90%+" },
   { label: "Patient Engagement", without: "Inconsistent", with: "Regular clinical touchpoints" },
-  { label: "Dedicated Clinical Staff", without: "No", with: "Yes - Licensed RT" },
+  { label: "Dedicated Clinical Staff", without: "No", with: "Yes - Licensed clinicians" },
   { label: "Care Plan Documentation", without: "Partial or missing", with: "Comprehensive" },
   { label: "Program Visibility", without: "Limited", with: "Full monthly reports" },
   { label: "Upfront Cost", without: "Varies", with: "$0 to start" },
@@ -95,11 +120,15 @@ const outcomes = [
 const faqItems = [
   {
     question: "How is ElevateRPM different from the support my device vendor offers?",
-    answer: "Most device vendors provide monitoring software and dashboards with alert notifications. That's technology, not clinical care. ElevateRPM provides a licensed Respiratory Therapist who proactively calls your patients, builds real relationships, creates individualized care plans, and manages engagement on an ongoing basis. We're the human layer that makes the technology actually work for your patients.",
+    answer: "Most device vendors provide monitoring software and dashboards with alert notifications. That's technology, not clinical care. ElevateRPM provides licensed clinicians who proactively call your patients, build real relationships, create individualized care plans, and manage engagement on an ongoing basis. We're the human layer that makes the technology actually work for your patients.",
+  },
+  {
+    question: "What devices and conditions do you support?",
+    answer: "We're device and disease agnostic. Whether you're running an RPM program for blood pressure, weight, glucose, pulse oximetry, or any other remote monitoring - we can support it. Our clinical team adapts to your existing devices, workflows, and patient populations.",
   },
   {
     question: "What does your pricing look like?",
-    answer: "You pay only for the care time our clinician spends with your patients. There are no setup fees, no monthly platform fees, and no long-term commitments. The model is designed so that our cost is always a fraction of the value we help create - when your patients are engaged and your program is thriving, everyone wins.",
+    answer: "You pay only for the care time our clinicians spend with your patients. There are no setup fees, no monthly platform fees, and no long-term commitments. The model is designed so that our cost is always a fraction of the value we help create - when your patients are engaged and your program is thriving, everyone wins.",
   },
   {
     question: "What specialties do you work with?",
@@ -107,7 +136,7 @@ const faqItems = [
   },
   {
     question: "How quickly can we get started?",
-    answer: "Most practices are fully onboarded within two weeks of our initial call. We begin with a program assessment, review your existing enrollment, set up our documentation protocols with your workflows, and introduce our clinician to your team. There's no technology integration required on your end - we work within your existing systems.",
+    answer: "Most practices are fully onboarded within two weeks of our initial call. We begin with a program assessment, review your existing enrollment, set up our documentation protocols with your workflows, and introduce our clinicians to your team. There's no technology integration required on your end - we work within your existing systems.",
   },
   {
     question: "We already have staff managing our RPM program. Do we still need ElevateRPM?",
@@ -136,28 +165,22 @@ export default function HomePage() {
                 <em className="text-blue-light">Engaged & Healthy</em>
               </h1>
               <p className="text-lg text-white/[0.78] leading-[1.65] mb-9 max-w-[520px]">
-                ElevateRPM provides a dedicated licensed clinician who builds relationships with your patients, keeps them engaged in their care, and ensures your RPM program delivers real health outcomes.
+                ElevateRPM provides dedicated licensed clinicians who build relationships with your patients, keep them engaged in their care, and ensure your RPM program delivers real health outcomes.
               </p>
-              <div className="flex flex-wrap items-center gap-3.5 mb-12">
+              <div className="mb-12">
                 <a
                   href={CALENDLY_URL}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn btn-white btn-lg"
                 >
-                  Book a Free Consultation
-                </a>
-                <a
-                  href="#how-it-works"
-                  className="btn btn-outline border-white/30 text-white/85 hover:border-white/60 hover:text-white"
-                >
-                  See How It Works ↓
+                  Book a Free Call
                 </a>
               </div>
               <div className="flex items-center gap-3.5 text-[13px] text-white/55">
-                <span className="text-green">✓</span> Licensed Respiratory Therapists
+                <span className="text-green">✓</span> Licensed clinical staff
                 <span className="text-green">✓</span> No long-term contracts
-                <span className="text-green">✓</span> Patient-centered care
+                <span className="text-green">✓</span> Device agnostic
               </div>
             </div>
 
@@ -190,14 +213,16 @@ export default function HomePage() {
         <div className="container-custom">
           <div className="flex flex-wrap items-center justify-center gap-8">
             {[
-              { icon: "🏥", text: "Designed for Medical Groups" },
-              { icon: "👩‍⚕️", text: "Licensed Respiratory Therapists" },
-              { icon: "❤️", text: "Patient-Centered Care" },
-              { icon: "📊", text: "Full Program Visibility" },
-              { icon: "🤝", text: "Flexible Partnership" },
+              { text: "Designed for Medical Groups" },
+              { text: "Licensed Clinical Staff" },
+              { text: "Device & Disease Agnostic" },
+              { text: "Full Program Visibility" },
+              { text: "Flexible Partnership" },
             ].map((item, index) => (
               <div key={index} className="flex items-center gap-2.5 text-sm font-medium text-muted">
-                <span className="text-lg">{item.icon}</span>
+                <svg className="w-4 h-4 text-green" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+                </svg>
                 {item.text}
               </div>
             ))}
@@ -255,7 +280,10 @@ export default function HomePage() {
                   <h3 className="font-serif text-[22px] text-blue-dark mb-2">{step.title}</h3>
                   <p className="text-[15px] text-muted leading-[1.7] mb-3">{step.body}</p>
                   <span className="inline-block px-3 py-1 rounded-full bg-green-pale text-[#065F46] text-xs font-semibold">
-                    ✓ {step.tag}
+                    <svg className="w-3 h-3 inline mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+                    </svg>
+                    {step.tag}
                   </span>
                 </div>
               </div>
@@ -269,7 +297,7 @@ export default function HomePage() {
               rel="noopener noreferrer"
               className="btn btn-primary btn-lg"
             >
-              Let's Talk About Your Program →
+              Let's Talk About Your Program
             </a>
           </div>
         </div>
@@ -287,7 +315,7 @@ export default function HomePage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {features.map((feature, index) => (
               <div key={index} className="card">
-                <div className="w-[52px] h-[52px] rounded-[14px] bg-blue-pale flex items-center justify-center text-2xl mb-4">
+                <div className="w-[52px] h-[52px] rounded-[14px] bg-blue-pale flex items-center justify-center text-blue mb-4">
                   {feature.icon}
                 </div>
                 <h3 className="text-[17px] font-semibold text-blue-dark mb-2">{feature.title}</h3>
@@ -314,7 +342,7 @@ export default function HomePage() {
                 <tr className="border-b border-white/10">
                   <th className="py-4 px-5 text-left text-[13px] font-semibold tracking-[0.5px] text-white/50">Program Metric</th>
                   <th className="py-4 px-5 text-left text-[13px] font-normal text-white/45">Typical Program</th>
-                  <th className="py-4 px-5 text-left text-[13px] font-semibold text-green">✓ With ElevateRPM</th>
+                  <th className="py-4 px-5 text-left text-[13px] font-semibold text-green">With ElevateRPM</th>
                 </tr>
               </thead>
               <tbody>
@@ -358,16 +386,16 @@ export default function HomePage() {
             Let's Talk About Your<br/>RPM Program
           </h2>
           <p className="text-lg text-white/[0.72] max-w-[560px] mx-auto leading-[1.65] mb-10">
-            Book a free consultation. We'll review your current program, discuss your goals, and explore whether ElevateRPM is the right fit - no pressure, no obligation.
+            Book a free call. We'll review your current program, discuss your goals, and explore whether ElevateRPM is the right fit - no pressure, no obligation.
           </p>
-          <div className="flex flex-wrap justify-center gap-3.5 mb-7">
+          <div className="mb-7">
             <a
               href={CALENDLY_URL}
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-white btn-lg"
             >
-              Book a Free Consultation
+              Book a Free Call
             </a>
           </div>
           <p className="text-sm text-white/45">
