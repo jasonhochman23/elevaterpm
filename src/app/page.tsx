@@ -108,9 +108,9 @@ const features = [
 ];
 
 const outcomes = [
-  { label: "Patient Retention", without: "45-55%", with: "80-90%+" },
+  { label: "Patient Retention", without: "45-55%", with: "95%" },
   { label: "Patient Engagement", without: "Inconsistent", with: "Regular clinical touchpoints" },
-  { label: "Dedicated Clinical Staff", without: "No", with: "Yes - Licensed clinicians" },
+  { label: "Dedicated Clinical Staff", without: "No", with: "Yes - Licensed Clinical Staff" },
   { label: "Care Plan Documentation", without: "Partial or missing", with: "Comprehensive" },
   { label: "Program Visibility", without: "Limited", with: "Full monthly reports" },
   { label: "Upfront Cost", without: "Varies", with: "$0 to start" },
@@ -161,8 +161,9 @@ export default function HomePage() {
                 Licensed Clinical RPM Management
               </div>
               <h1 className="font-serif text-[clamp(36px,5vw,58px)] leading-[1.08] text-white mb-5">
-                Your RPM Program Should Be Working.<br/>
-                <em className="text-blue-light">Is It?</em>
+                Your RPM Program Should Be Working—<br/>
+                Billing, Retention, Patient Satisfaction.<br/>
+                <em className="text-blue-light">But Is It?</em>
               </h1>
               <p className="text-lg text-white/[0.78] leading-[1.65] mb-9 max-w-[520px]">
                 ElevateRPM provides dedicated licensed clinicians who build relationships with your patients, keep them engaged in their care, and ensure your RPM program delivers real health outcomes.
@@ -336,21 +337,21 @@ export default function HomePage() {
           </div>
 
           {/* Comparison Table */}
-          <div className="overflow-x-auto rounded-[20px]">
-            <table className="w-full border-collapse bg-white/[0.04] rounded-[20px] overflow-hidden">
+          <div className="overflow-x-auto rounded-[20px] border-2 border-white/20">
+            <table className="w-full border-collapse bg-white/[0.08] overflow-hidden">
               <thead>
-                <tr className="border-b border-white/10">
-                  <th className="py-4 px-5 text-left text-[13px] font-semibold tracking-[0.5px] text-white/50">Program Metric</th>
-                  <th className="py-4 px-5 text-left text-[13px] font-normal text-white/45">Typical Program</th>
-                  <th className="py-4 px-5 text-left text-[13px] font-semibold text-green">With ElevateRPM</th>
+                <tr className="border-b-2 border-white/25 bg-white/[0.06]">
+                  <th className="py-5 px-6 text-left text-[14px] font-bold tracking-[0.5px] text-white/70 border-r border-white/15">Program Metric</th>
+                  <th className="py-5 px-6 text-left text-[14px] font-medium text-white/50 border-r border-white/15">Typical Program</th>
+                  <th className="py-5 px-6 text-left text-[14px] font-bold text-green">With ElevateRPM</th>
                 </tr>
               </thead>
               <tbody>
                 {outcomes.map((row, index) => (
-                  <tr key={index} className="border-b border-white/[0.06] last:border-b-0">
-                    <td className="py-3.5 px-5 text-sm text-white/70 font-medium">{row.label}</td>
-                    <td className="py-3.5 px-5 text-sm text-white/35">{row.without}</td>
-                    <td className="py-3.5 px-5 text-sm text-green font-medium">{row.with}</td>
+                  <tr key={index} className="border-b border-white/15 last:border-b-0 hover:bg-white/[0.04] transition-colors">
+                    <td className="py-4 px-6 text-[15px] text-white/80 font-semibold border-r border-white/15">{row.label}</td>
+                    <td className="py-4 px-6 text-[15px] text-white/40 border-r border-white/15">{row.without}</td>
+                    <td className="py-4 px-6 text-[15px] text-green font-semibold">{row.with}</td>
                   </tr>
                 ))}
               </tbody>
