@@ -6,46 +6,46 @@ const CALENDLY_URL = "https://calendly.com/jason-elevaterpm/30min";
 const problems = [
   {
     number: "01",
-    question: "\"Do you know if your RPM program is profitable?\"",
-    body: "Most practices have no visibility into their actual RPM revenue. No tracking, no monthly reporting, no one whose job it is to know the answer. If you can't measure it, you can't optimize it.",
+    question: "\"Are your RPM patients actually engaged?\"",
+    body: "Enrollment is just the first step. Without consistent clinical touchpoints, patients disengage, stop using their devices, and miss the health benefits RPM was designed to deliver.",
   },
   {
     number: "02",
-    question: "\"What's your patient retention rate after 90 days?\"",
-    body: "Without dedicated outreach, 40-60% of enrolled patients stop participating within three months. Every patient who drops off is direct revenue loss - and most practices don't even realize it's happening.",
+    question: "\"What happens between office visits?\"",
+    body: "The real value of RPM is catching problems early and keeping patients on track. But that only works when someone is actively monitoring, reaching out, and building relationships with your patients.",
   },
   {
     number: "03",
-    question: "\"Who owns the patient relationship between visits?\"",
-    body: "The \"set it and forget it\" model fails. Patients need 16+ device readings per month to trigger billing. Without proactive clinical outreach, adherence drops - and your CPT codes disappear with it.",
+    question: "\"Is your team stretched too thin?\"",
+    body: "Your clinical staff is already busy with in-office care. RPM requires dedicated attention - personalized outreach, care plan management, and consistent follow-up that's hard to maintain alongside everything else.",
   },
 ];
 
 const steps = [
   {
-    title: "We Assess Your Program",
-    body: "We start with a free review of your current RPM enrollment, identify CPT billing gaps, and benchmark your retention metrics against industry standards. You'll immediately understand exactly what you're leaving on the table.",
+    title: "We Assess Your Current Program",
+    body: "We start with a free review of your RPM enrollment - looking at patient engagement, retention patterns, and care gaps. You'll get a clear picture of what's working and where there's room to improve.",
     tag: "Free - no commitment required",
   },
   {
     title: "We Build Personalized Care Plans",
-    body: "Our licensed Respiratory Therapist creates an individualized care plan for every enrolled patient - setting goals, defining escalation protocols, and establishing the rhythm of regular clinical contact. This is what makes patients stay.",
+    body: "Our licensed Respiratory Therapist creates an individualized care plan for every enrolled patient - setting health goals, defining escalation protocols, and establishing a rhythm of regular clinical contact.",
     tag: "Licensed RT, not a call center agent",
   },
   {
-    title: "We Drive Device Adherence",
-    body: "Proactive patient outreach ensures every enrolled patient hits 16+ readings per month - the Medicare threshold for CPT 99454 billing. We track adherence daily, intervene when readings drop, and educate patients on why consistency matters for their health.",
-    tag: "80-90%+ adherence rates achieved",
+    title: "We Keep Patients Engaged",
+    body: "Proactive outreach ensures your patients stay connected to their care. We check in regularly, answer questions, reinforce healthy habits, and escalate concerns to your team when needed.",
+    tag: "80-90%+ patient retention rates",
   },
   {
-    title: "We Handle Full Clinical Documentation",
-    body: "Every patient interaction is documented to support billing for CPT 99454, 99457, and 99458 - including the add-on codes most practices miss entirely. Our documentation is compliant, thorough, and ready for your billing team.",
-    tag: "Capture every billable minute",
+    title: "We Handle Clinical Documentation",
+    body: "Every patient interaction is thoroughly documented - care notes, clinical updates, and time tracking. Your team stays informed, and your billing department has what they need.",
+    tag: "Complete, compliant documentation",
   },
   {
-    title: "You Receive a Monthly Revenue Report",
-    body: "Each month, we send you a full activity report: patients managed, care time logged, CPT codes supported, and program health metrics. You bill your payers. We invoice only for the billable care time we actually used. That's it.",
-    tag: "Pay only for what we use",
+    title: "You Get Monthly Program Reports",
+    body: "Each month, we send you a full report: patients managed, engagement metrics, clinical outcomes, and program health. You'll always know exactly how your RPM program is performing.",
+    tag: "Full visibility into your program",
   },
 ];
 
@@ -53,57 +53,57 @@ const features = [
   {
     icon: "👩‍⚕️",
     title: "Licensed Clinical Staff",
-    body: "A credentialed Respiratory Therapist manages your program - not a call center agent, not a medical assistant. Real clinical relationships drive real retention.",
+    body: "A credentialed Respiratory Therapist manages your program - building real relationships with your patients through consistent, personalized care.",
   },
   {
-    icon: "💰",
-    title: "Zero Cost to Start",
-    body: "No setup fees. No monthly retainer. No long-term contracts. You pay only for billable care time used - which means you only pay when your patients are generating revenue.",
+    icon: "❤️",
+    title: "Patient-Centered Approach",
+    body: "We focus on keeping patients engaged and healthy. When patients feel supported, they stay in the program and see better outcomes.",
   },
   {
     icon: "📋",
     title: "Care Plan Management",
-    body: "Every patient gets a personalized care plan. Every touchpoint is documented. Every clinical update goes back to your practice - keeping your care team informed.",
-  },
-  {
-    icon: "📈",
-    title: "CPT Code Optimization",
-    body: "We track every billable minute and ensure you're capturing the full set of eligible CPT codes every month - especially the 99458 add-on codes most practices miss entirely.",
+    body: "Every patient gets a personalized care plan. Every touchpoint is documented. Every clinical update goes back to your practice.",
   },
   {
     icon: "🤝",
     title: "Extension of Your Practice",
-    body: "We operate under your brand, your protocols, your clinical standards. Patients experience us as part of your care team - because for them, we are.",
+    body: "We operate under your brand, your protocols, your clinical standards. Patients experience us as part of your care team - because we are.",
   },
   {
     icon: "📊",
-    title: "Monthly Revenue Reports",
-    body: "No more guessing. Every month you receive a clear report: patients managed, care time logged, CPT codes supported, and program health at a glance.",
+    title: "Program Visibility",
+    body: "No more guessing. Monthly reports show patient engagement, retention metrics, and clinical activity at a glance.",
+  },
+  {
+    icon: "💰",
+    title: "Aligned Incentives",
+    body: "No setup fees or long-term contracts. You pay only for the care time we deliver - our success is tied to your program's success.",
   },
 ];
 
-const comparisonData = [
-  { metric: "Device Adherence Rate", without: "40-55%", with: "80-90%+" },
-  { metric: "Patient Retention at 90 Days", without: "~45%", with: "80%+" },
-  { metric: "Dedicated Clinical Staff", without: "No", with: "Yes - Licensed RT" },
-  { metric: "CPT Code Capture", without: "Partial (often missing 99458)", with: "Comprehensive" },
-  { metric: "Monthly Revenue Visibility", without: "None / estimated", with: "Full monthly reports" },
-  { metric: "Upfront Cost to Get Started", without: "Varies / setup fees common", with: "$0 - zero cost to start" },
-  { metric: "Contracts / Long-term Commitment", without: "Often required", with: "None - pay as you go" },
+const outcomes = [
+  { label: "Patient Retention", without: "45-55%", with: "80-90%+" },
+  { label: "Patient Engagement", without: "Inconsistent", with: "Regular clinical touchpoints" },
+  { label: "Dedicated Clinical Staff", without: "No", with: "Yes - Licensed RT" },
+  { label: "Care Plan Documentation", without: "Partial or missing", with: "Comprehensive" },
+  { label: "Program Visibility", without: "Limited", with: "Full monthly reports" },
+  { label: "Upfront Cost", without: "Varies", with: "$0 to start" },
+  { label: "Long-term Contracts", without: "Often required", with: "None - flexible terms" },
 ];
 
 const faqItems = [
   {
-    question: "How is ElevateRPM different from the clinical support my device vendor offers?",
-    answer: "Most device vendors provide monitoring software and sometimes a dashboard with alert notifications. That's technology, not clinical care. ElevateRPM provides a licensed Respiratory Therapist who proactively calls your patients, builds real relationships, creates individualized care plans, and manages adherence on an ongoing basis. We're the human layer that makes the technology actually work - and that's what drives retention and revenue.",
+    question: "How is ElevateRPM different from the support my device vendor offers?",
+    answer: "Most device vendors provide monitoring software and dashboards with alert notifications. That's technology, not clinical care. ElevateRPM provides a licensed Respiratory Therapist who proactively calls your patients, builds real relationships, creates individualized care plans, and manages engagement on an ongoing basis. We're the human layer that makes the technology actually work for your patients.",
   },
   {
-    question: "What does \"usage-based\" pricing actually mean? What will we pay?",
-    answer: "You only pay for the prorated hourly cost of care time our clinician spends managing your billable patients. If a patient isn't generating a billable CPT code, we're not charging you for them. There are no setup fees, no monthly platform fees, no minimum commitments. The model is designed so that our cost is always a fraction of the revenue we help you generate - we only make money when you make money.",
+    question: "What does your pricing look like?",
+    answer: "You pay only for the care time our clinician spends with your patients. There are no setup fees, no monthly platform fees, and no long-term commitments. The model is designed so that our cost is always a fraction of the value we help create - when your patients are engaged and your program is thriving, everyone wins.",
   },
   {
     question: "What specialties do you work with?",
-    answer: "We work with medical groups across Primary Care, Cardiology, Pulmonology, Endocrinology, Nephrology, and multi-specialty practices. If your patients have chronic conditions being managed with RPM or RTM devices, ElevateRPM can support your program. We've worked with solo practices and groups with 15+ providers.",
+    answer: "We work with medical groups across Primary Care, Cardiology, Pulmonology, Endocrinology, Nephrology, and multi-specialty practices. If your patients have chronic conditions being managed with RPM or RTM devices, ElevateRPM can support your program.",
   },
   {
     question: "How quickly can we get started?",
@@ -111,7 +111,7 @@ const faqItems = [
   },
   {
     question: "We already have staff managing our RPM program. Do we still need ElevateRPM?",
-    answer: "It depends on what they're doing. If your existing staff is proactively calling every RPM patient at least monthly, tracking 16-day adherence per patient, building individualized care plans, documenting all clinical time for CPT billing, and generating a monthly revenue report - then you may be in good shape. If any of those aren't happening consistently, there's likely meaningful revenue being missed. Book a call and we'll show you exactly where the gaps are, for free, with no obligation.",
+    answer: "It depends on what they're able to do. If your existing staff is proactively reaching out to every RPM patient regularly, building individualized care plans, documenting all clinical interactions, and generating program reports - you may be in good shape. If any of those aren't happening consistently, there's likely room to improve patient engagement and retention. Book a call and we'll review your program together, for free.",
   },
 ];
 
@@ -132,11 +132,11 @@ export default function HomePage() {
                 Licensed Clinical RPM Management
               </div>
               <h1 className="font-serif text-[clamp(36px,5vw,58px)] leading-[1.08] text-white mb-5">
-                Your RPM Program Should Be Generating Revenue.<br/>
-                <em className="text-blue-light">Is It?</em>
+                Keep Your RPM Patients<br/>
+                <em className="text-blue-light">Engaged & Healthy</em>
               </h1>
               <p className="text-lg text-white/[0.78] leading-[1.65] mb-9 max-w-[520px]">
-                ElevateRPM provides a dedicated licensed clinician who manages your remote monitoring program, drives patient adherence, and turns your existing enrollment into consistent monthly revenue - at zero upfront cost.
+                ElevateRPM provides a dedicated licensed clinician who builds relationships with your patients, keeps them engaged in their care, and ensures your RPM program delivers real health outcomes.
               </p>
               <div className="flex flex-wrap items-center gap-3.5 mb-12">
                 <a
@@ -145,7 +145,7 @@ export default function HomePage() {
                   rel="noopener noreferrer"
                   className="btn btn-white btn-lg"
                 >
-                  📅 Book a Free 20-Minute Call
+                  Book a Free Consultation
                 </a>
                 <a
                   href="#how-it-works"
@@ -155,33 +155,29 @@ export default function HomePage() {
                 </a>
               </div>
               <div className="flex items-center gap-3.5 text-[13px] text-white/55">
-                <span className="text-green">✓</span> Zero upfront cost
-                <span className="text-green">✓</span> No contracts
-                <span className="text-green">✓</span> Pay only for billable care time
+                <span className="text-green">✓</span> Licensed Respiratory Therapists
+                <span className="text-green">✓</span> No long-term contracts
+                <span className="text-green">✓</span> Patient-centered care
               </div>
             </div>
 
-            {/* Stats Card */}
+            {/* Value Prop Card */}
             <div className="bg-white/[0.06] border border-white/[0.14] rounded-[20px] p-9 backdrop-blur-[12px]">
               <div className="text-xs font-semibold tracking-[2px] uppercase text-white/50 mb-7">
-                ElevateRPM Program Results
+                The ElevateRPM Difference
               </div>
-              <div className="grid grid-cols-2 gap-6">
-                <div className="p-5 bg-white/[0.08] border border-white/10 rounded-[12px] text-center">
-                  <div className="font-serif text-4xl text-green leading-none mb-1.5">$198</div>
-                  <div className="text-xs text-white/55 leading-[1.4]">Net profit per patient / month</div>
+              <div className="space-y-6">
+                <div className="p-5 bg-white/[0.08] border border-white/10 rounded-[12px]">
+                  <div className="font-serif text-2xl text-white leading-tight mb-2">Patient-First Approach</div>
+                  <div className="text-sm text-white/60 leading-relaxed">Engagement and retention through genuine clinical relationships - not just alerts and reminders.</div>
                 </div>
-                <div className="p-5 bg-white/[0.08] border border-white/10 rounded-[12px] text-center">
-                  <div className="font-serif text-4xl text-white leading-none mb-1.5">180%</div>
-                  <div className="text-xs text-white/55 leading-[1.4]">ROI on 60 min of care time/month</div>
+                <div className="p-5 bg-white/[0.08] border border-white/10 rounded-[12px]">
+                  <div className="font-serif text-2xl text-white leading-tight mb-2">Better Outcomes</div>
+                  <div className="text-sm text-white/60 leading-relaxed">When patients are engaged, they see real health benefits - and your practice sees better results across the board.</div>
                 </div>
-                <div className="p-5 bg-white/[0.08] border border-white/10 rounded-[12px] text-center">
-                  <div className="font-serif text-4xl text-green leading-none mb-1.5">2.7x</div>
-                  <div className="text-xs text-white/55 leading-[1.4]">Revenue expansion at scale</div>
-                </div>
-                <div className="p-5 bg-white/[0.08] border border-white/10 rounded-[12px] text-center">
-                  <div className="font-serif text-4xl text-white leading-none mb-1.5">$238k</div>
-                  <div className="text-xs text-white/55 leading-[1.4]">Annual net profit / 100 patients</div>
+                <div className="p-5 bg-white/[0.08] border border-white/10 rounded-[12px]">
+                  <div className="font-serif text-2xl text-green leading-tight mb-2">True Win-Win</div>
+                  <div className="text-sm text-white/60 leading-relaxed">Healthier patients, satisfied providers, and sustainable revenue - everything aligned in the right direction.</div>
                 </div>
               </div>
             </div>
@@ -195,10 +191,10 @@ export default function HomePage() {
           <div className="flex flex-wrap items-center justify-center gap-8">
             {[
               { icon: "🏥", text: "Designed for Medical Groups" },
-              { icon: "📋", text: "Medicare-Compliant CPT Billing" },
               { icon: "👩‍⚕️", text: "Licensed Respiratory Therapists" },
-              { icon: "💰", text: "$0 Upfront · No Contracts" },
-              { icon: "📈", text: "RPM & RTM Programs" },
+              { icon: "❤️", text: "Patient-Centered Care" },
+              { icon: "📊", text: "Full Program Visibility" },
+              { icon: "🤝", text: "Flexible Partnership" },
             ].map((item, index) => (
               <div key={index} className="flex items-center gap-2.5 text-sm font-medium text-muted">
                 <span className="text-lg">{item.icon}</span>
@@ -213,9 +209,9 @@ export default function HomePage() {
       <section className="section-padding bg-bg" id="problem">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="section-label">The Reality Check</span>
-            <h2 className="section-title">Most RPM Programs Are Leaving Money on the Table</h2>
-            <p className="section-sub mx-auto">We ask every new client three questions. Most can't answer any of them.</p>
+            <span className="section-label">The Challenge</span>
+            <h2 className="section-title">RPM Works Best When Patients Stay Engaged</h2>
+            <p className="section-sub mx-auto">The technology is only part of the equation. Sustained engagement is what drives real outcomes.</p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-6">
@@ -240,8 +236,8 @@ export default function HomePage() {
         <div className="container-custom">
           <div className="mb-12">
             <span className="section-label">How It Works</span>
-            <h2 className="section-title">ElevateRPM Runs Your Program.<br/>You Collect the Revenue.</h2>
-            <p className="section-sub">Five straightforward steps - we handle all the clinical work, you focus on patient care.</p>
+            <h2 className="section-title">We Manage Patient Engagement.<br/>You Focus on Care.</h2>
+            <p className="section-sub">A straightforward partnership - we handle the ongoing patient relationships, you stay focused on clinical care.</p>
           </div>
 
           <div className="max-w-[780px] mx-auto">
@@ -273,7 +269,7 @@ export default function HomePage() {
               rel="noopener noreferrer"
               className="btn btn-primary btn-lg"
             >
-              See If ElevateRPM Is Right for Your Practice →
+              Let's Talk About Your Program →
             </a>
           </div>
         </div>
@@ -285,7 +281,7 @@ export default function HomePage() {
           <div className="text-center mb-12">
             <span className="section-label">Why ElevateRPM</span>
             <h2 className="section-title">The Partner Your Program Has Been Missing</h2>
-            <p className="section-sub mx-auto">We're not a software platform. We're not a device vendor. We're the clinical team that makes your existing program actually work.</p>
+            <p className="section-sub mx-auto">We're not a software platform or device vendor. We're the clinical team that keeps your patients engaged and your program running smoothly.</p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -302,30 +298,13 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Results Section */}
+      {/* Outcomes Section */}
       <section className="section-padding bg-blue-dark" id="results">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="section-label bg-blue-light/20 text-blue-light">Program Results</span>
-            <h2 className="section-title text-white">What Optimized RPM Actually Looks Like</h2>
-            <p className="section-sub text-white/65 mx-auto">When a dedicated licensed clinician owns the patient relationship, the numbers speak for themselves.</p>
-          </div>
-
-          {/* Stats Row */}
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-5 mb-14">
-            {[
-              { num: "$198", label: "Net profit per patient per month", green: true },
-              { num: "180%", label: "ROI on 60 minutes of care time per month", green: false },
-              { num: "2.7x", label: "Revenue expansion opportunity at scale", green: true },
-              { num: "$238k", label: "Annual net profit for every 100 patients", green: false },
-            ].map((stat, index) => (
-              <div key={index} className="bg-white/[0.06] border border-white/[0.12] rounded-[20px] p-7 text-center hover:bg-white/10 transition-colors">
-                <div className={`font-serif text-[44px] leading-none mb-2 ${stat.green ? "text-green" : "text-white"}`}>
-                  {stat.num}
-                </div>
-                <div className="text-[13px] text-white/55 leading-[1.4]">{stat.label}</div>
-              </div>
-            ))}
+            <span className="section-label bg-blue-light/20 text-blue-light">Program Outcomes</span>
+            <h2 className="section-title text-white">What an Optimized RPM Program Looks Like</h2>
+            <p className="section-sub text-white/65 mx-auto">When patients are engaged and supported, everything improves - outcomes, satisfaction, and yes, revenue too.</p>
           </div>
 
           {/* Comparison Table */}
@@ -334,20 +313,26 @@ export default function HomePage() {
               <thead>
                 <tr className="border-b border-white/10">
                   <th className="py-4 px-5 text-left text-[13px] font-semibold tracking-[0.5px] text-white/50">Program Metric</th>
-                  <th className="py-4 px-5 text-left text-[13px] font-normal text-white/45">Without ElevateRPM</th>
+                  <th className="py-4 px-5 text-left text-[13px] font-normal text-white/45">Typical Program</th>
                   <th className="py-4 px-5 text-left text-[13px] font-semibold text-green">✓ With ElevateRPM</th>
                 </tr>
               </thead>
               <tbody>
-                {comparisonData.map((row, index) => (
+                {outcomes.map((row, index) => (
                   <tr key={index} className="border-b border-white/[0.06] last:border-b-0">
-                    <td className="py-3.5 px-5 text-sm text-white/70 font-medium">{row.metric}</td>
+                    <td className="py-3.5 px-5 text-sm text-white/70 font-medium">{row.label}</td>
                     <td className="py-3.5 px-5 text-sm text-white/35">{row.without}</td>
                     <td className="py-3.5 px-5 text-sm text-green font-medium">{row.with}</td>
                   </tr>
                 ))}
               </tbody>
             </table>
+          </div>
+
+          <div className="mt-12 text-center">
+            <p className="text-white/60 text-lg max-w-2xl mx-auto">
+              Better patient engagement leads to better health outcomes, higher satisfaction, and sustainable program economics. It's a true win-win.
+            </p>
           </div>
         </div>
       </section>
@@ -356,8 +341,8 @@ export default function HomePage() {
       <section className="section-padding bg-white" id="faq">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="section-label">Common Questions</span>
-            <h2 className="section-title">Straight Answers to Your Real Questions</h2>
+            <span className="section-label">Questions</span>
+            <h2 className="section-title">Common Questions</h2>
           </div>
           <FAQ items={faqItems} />
         </div>
@@ -370,10 +355,10 @@ export default function HomePage() {
 
         <div className="container-custom relative z-10">
           <h2 className="font-serif text-[clamp(32px,4.5vw,52px)] text-white leading-[1.1] mb-4">
-            Ready to Find Out What Your<br/>RPM Program Is Really Worth?
+            Let's Talk About Your<br/>RPM Program
           </h2>
           <p className="text-lg text-white/[0.72] max-w-[560px] mx-auto leading-[1.65] mb-10">
-            Book a free 20-minute strategy call. We'll review your current program, show you the revenue gap, and explain exactly how ElevateRPM works - no pressure, no commitment.
+            Book a free consultation. We'll review your current program, discuss your goals, and explore whether ElevateRPM is the right fit - no pressure, no obligation.
           </p>
           <div className="flex flex-wrap justify-center gap-3.5 mb-7">
             <a
@@ -382,7 +367,7 @@ export default function HomePage() {
               rel="noopener noreferrer"
               className="btn btn-white btn-lg"
             >
-              📅 Book My Free Strategy Call
+              Book a Free Consultation
             </a>
           </div>
           <p className="text-sm text-white/45">
