@@ -161,8 +161,8 @@ export default function HomePage() {
                 Licensed Clinical RPM Management
               </div>
               <h1 className="font-serif text-[clamp(36px,5vw,58px)] leading-[1.08] text-white mb-5">
-                Keep Your RPM Patients<br/>
-                <em className="text-blue-light">Engaged & Healthy</em>
+                Your RPM Program Should Be Working.<br/>
+                <em className="text-blue-light">Is It?</em>
               </h1>
               <p className="text-lg text-white/[0.78] leading-[1.65] mb-9 max-w-[520px]">
                 ElevateRPM provides dedicated licensed clinicians who build relationships with your patients, keep them engaged in their care, and ensure your RPM program delivers real health outcomes.
