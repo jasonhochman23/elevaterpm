@@ -199,6 +199,10 @@ export default function HomePage() {
                   <div className="text-sm text-white/60 leading-relaxed">When patients are engaged, they see real health benefits - and your practice sees better results across the board.</div>
                 </div>
                 <div className="p-5 bg-white/[0.08] border border-white/10 rounded-[12px]">
+                  <div className="font-serif text-2xl text-white leading-tight mb-2">No Extra Work for Your Staff</div>
+                  <div className="text-sm text-white/60 leading-relaxed">We handle patient outreach, care plans, and documentation - your team stays focused on in-office care.</div>
+                </div>
+                <div className="p-5 bg-white/[0.08] border border-white/10 rounded-[12px]">
                   <div className="font-serif text-2xl text-green leading-tight mb-2">True Win-Win</div>
                   <div className="text-sm text-white/60 leading-relaxed">Healthier patients, satisfied providers, and sustainable revenue - everything aligned in the right direction.</div>
                 </div>
