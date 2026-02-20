@@ -332,7 +332,7 @@ export default function HomePage() {
           <div className="text-center mb-12">
             <span className="section-label bg-blue-light/20 text-blue-light">Program Outcomes</span>
             <h2 className="section-title text-white">What an Optimized RPM Program Looks Like</h2>
-            <p className="section-sub text-white/65 mx-auto">When patients are engaged and supported, everything improves - outcomes, satisfaction, and yes, revenue too.</p>
+            <p className="section-sub text-white mx-auto">When patients are engaged and supported, everything improves - outcomes, satisfaction, and yes, revenue too.</p>
           </div>
 
           {/* Comparison Table */}
@@ -340,16 +340,16 @@ export default function HomePage() {
             <table className="w-full border-collapse bg-white/[0.08] overflow-hidden">
               <thead>
                 <tr className="border-b-2 border-white/25 bg-white/[0.06]">
-                  <th className="py-5 px-6 text-left text-[14px] font-bold tracking-[0.5px] text-white/70 border-r border-white/15">Program Metric</th>
-                  <th className="py-5 px-6 text-left text-[14px] font-medium text-white/50 border-r border-white/15">Typical Program</th>
+                  <th className="py-5 px-6 text-left text-[14px] font-bold tracking-[0.5px] text-white border-r border-white/15">Program Metric</th>
+                  <th className="py-5 px-6 text-left text-[14px] font-medium text-white/80 border-r border-white/15">Typical Program</th>
                   <th className="py-5 px-6 text-left text-[14px] font-bold text-green">With ElevateRPM</th>
                 </tr>
               </thead>
               <tbody>
                 {outcomes.map((row, index) => (
                   <tr key={index} className="border-b border-white/15 last:border-b-0 hover:bg-white/[0.04] transition-colors">
-                    <td className="py-4 px-6 text-[15px] text-white/80 font-semibold border-r border-white/15">{row.label}</td>
-                    <td className="py-4 px-6 text-[15px] text-white/40 border-r border-white/15">{row.without}</td>
+                    <td className="py-4 px-6 text-[15px] text-white font-semibold border-r border-white/15">{row.label}</td>
+                    <td className="py-4 px-6 text-[15px] text-white/70 border-r border-white/15">{row.without}</td>
                     <td className="py-4 px-6 text-[15px] text-green font-semibold">{row.with}</td>
                   </tr>
                 ))}
@@ -358,7 +358,7 @@ export default function HomePage() {
           </div>
 
           <div className="mt-12 text-center">
-            <p className="text-white/60 text-lg max-w-2xl mx-auto">
+            <p className="text-white text-lg max-w-2xl mx-auto">
               Better patient engagement leads to better health outcomes, higher satisfaction, and sustainable program economics. It's a true win-win.
             </p>
           </div>
