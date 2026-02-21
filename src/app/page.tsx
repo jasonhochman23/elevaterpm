@@ -176,7 +176,7 @@ export default function HomePage() {
             {/* Value Prop Card */}
             <div className="bg-white/[0.06] border border-white/[0.14] rounded-[16px] p-6 backdrop-blur-[12px]">
               <div className="text-lg font-bold tracking-[1.5px] uppercase text-white mb-5">
-                The ElevateRPM Difference
+                Why Choose ElevateRPM
               </div>
               <div className="space-y-3">
                 <div className="p-4 bg-white/[0.08] border border-white/10 rounded-[10px]">
