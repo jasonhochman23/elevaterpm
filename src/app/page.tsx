@@ -174,26 +174,26 @@ export default function HomePage() {
             </div>
 
             {/* Value Prop Card */}
-            <div className="bg-white/[0.06] border border-white/[0.14] rounded-[16px] p-5 backdrop-blur-[12px]">
-              <div className="text-base font-bold tracking-[1.5px] uppercase text-white mb-4">
+            <div className="bg-white/[0.06] border border-white/[0.14] rounded-[16px] p-6 backdrop-blur-[12px]">
+              <div className="text-lg font-bold tracking-[1.5px] uppercase text-white mb-5">
                 The ElevateRPM Difference
               </div>
-              <div className="space-y-2.5">
-                <div className="p-3 bg-white/[0.08] border border-white/10 rounded-[10px]">
-                  <div className="font-serif text-lg text-white leading-tight mb-1">Patient-First Approach</div>
-                  <div className="text-xs text-white/60 leading-relaxed">Engagement and retention through genuine clinical relationships.</div>
+              <div className="space-y-3">
+                <div className="p-4 bg-white/[0.08] border border-white/10 rounded-[10px]">
+                  <div className="font-serif text-xl text-white leading-tight mb-1">Patient-First Approach</div>
+                  <div className="text-sm text-white/60 leading-relaxed">Engagement and retention through genuine clinical relationships.</div>
                 </div>
-                <div className="p-3 bg-white/[0.08] border border-white/10 rounded-[10px]">
-                  <div className="font-serif text-lg text-white leading-tight mb-1">Better Outcomes</div>
-                  <div className="text-xs text-white/60 leading-relaxed">Engaged patients see real health benefits - and your practice sees better results.</div>
+                <div className="p-4 bg-white/[0.08] border border-white/10 rounded-[10px]">
+                  <div className="font-serif text-xl text-white leading-tight mb-1">Better Outcomes</div>
+                  <div className="text-sm text-white/60 leading-relaxed">Engaged patients see real health benefits - and your practice sees better results.</div>
                 </div>
-                <div className="p-3 bg-white/[0.08] border border-white/10 rounded-[10px]">
-                  <div className="font-serif text-lg text-white leading-tight mb-1">No Extra Work for Your Staff</div>
-                  <div className="text-xs text-white/60 leading-relaxed">We handle outreach, care plans, and documentation - your team stays focused.</div>
+                <div className="p-4 bg-white/[0.08] border border-white/10 rounded-[10px]">
+                  <div className="font-serif text-xl text-white leading-tight mb-1">No Extra Work for Your Staff</div>
+                  <div className="text-sm text-white/60 leading-relaxed">We handle outreach, care plans, and documentation - your team stays focused.</div>
                 </div>
-                <div className="p-3 bg-white/[0.08] border border-white/10 rounded-[10px]">
-                  <div className="font-serif text-lg text-green leading-tight mb-1">True Win-Win</div>
-                  <div className="text-xs text-white/60 leading-relaxed">Healthier patients, satisfied providers, and sustainable revenue.</div>
+                <div className="p-4 bg-white/[0.08] border border-white/10 rounded-[10px]">
+                  <div className="font-serif text-xl text-green leading-tight mb-1">True Win-Win</div>
+                  <div className="text-sm text-white/60 leading-relaxed">Healthier patients, satisfied providers, and sustainable revenue.</div>
                 </div>
               </div>
             </div>
