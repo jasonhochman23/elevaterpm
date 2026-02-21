@@ -393,8 +393,8 @@ export default function HomePage() {
           </div>
           <p className="text-sm text-white/45">
             Or reach us directly at{" "}
-            <a href="mailto:jason@elevaterpm.com" className="text-white/70 underline underline-offset-[3px]">
-              jason@elevaterpm.com
+            <a href="mailto:info@elevaterpm.com" className="text-white/70 underline underline-offset-[3px]">
+              info@elevaterpm.com
             </a>
           </p>
         </div>
