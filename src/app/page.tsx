@@ -44,8 +44,8 @@ const steps = [
   },
   {
     title: "You Get Monthly Program Reports",
-    body: "Each month, we send you a full report: patients managed, engagement metrics, clinical outcomes, and program health. You'll always know exactly how your RPM program is performing.",
-    tag: "Full visibility into your program",
+    body: "Each month, we send you a full report: patients managed, engagement metrics, clinical outcomes, and program health. No additional software required - we work within your existing systems.",
+    tag: "Full visibility, no new software",
   },
 ];
 
