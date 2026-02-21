@@ -325,7 +325,7 @@ export default function HomePage() {
           <div className="text-center mb-12">
             <span className="section-label bg-blue-light/20 text-blue-light">Program Outcomes</span>
             <h2 className="section-title text-white">What an Optimized RPM Program Looks Like</h2>
-            <p className="section-sub text-white mx-auto">When patients are engaged and supported, everything improves - outcomes, satisfaction, and yes, revenue too.</p>
+            <p className="text-lg text-white leading-relaxed max-w-[640px] mx-auto">When patients are engaged and supported, everything improves - outcomes, satisfaction, and yes, revenue too.</p>
           </div>
 
           {/* Comparison Table */}
