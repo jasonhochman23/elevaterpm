@@ -15,10 +15,10 @@ export default function Footer() {
           </p>
           <div className="flex gap-6">
             <a
-              href="mailto:info@elevaterpm.com"
+              href="mailto:hello@elevaterpm.com"
               className="text-[13px] text-white/45 hover:text-white/80 transition-colors"
             >
-              info@elevaterpm.com
+              hello@elevaterpm.com
             </a>
             <a
               href={CALENDLY_URL}
