@@ -163,21 +163,14 @@ export default function HomePage() {
               <p className="text-lg text-white/[0.78] leading-[1.65] mb-9 max-w-[520px]">
                 ElevateRPM provides dedicated licensed clinicians who build relationships with your patients, keep them engaged in their care, and ensure your RPM program delivers real health outcomes.
               </p>
-              <div className="mb-12">
-                <a
-                  href={CALENDLY_URL}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="btn btn-white btn-lg"
-                >
-                  Book a Free Call
-                </a>
-              </div>
-              <div className="flex items-center gap-3.5 text-[13px] text-white/55">
-                <span className="text-green">✓</span> Licensed clinical staff
-                <span className="text-green">✓</span> No long-term contracts
-                <span className="text-green">✓</span> Device agnostic
-              </div>
+              <a
+                href={CALENDLY_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-white btn-lg"
+              >
+                Book a Free Call
+              </a>
             </div>
 
             {/* Value Prop Card */}
