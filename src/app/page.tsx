@@ -124,7 +124,7 @@ const faqItems = [
   },
   {
     question: "What devices and conditions do you support?",
-    answer: "We're device and disease agnostic. Whether you're running an RPM program for blood pressure, weight, glucose, pulse oximetry, or any other remote monitoring - we can support it. Our clinical team adapts to your existing devices, workflows, and patient populations.",
+    answer: "We're device and disease agnostic, and we manage both RPM and RTM programs the same way. Whether you're running a program for blood pressure, weight, glucose, pulse oximetry, or any other remote monitoring - we can support it. Our clinical team adapts to your existing devices, workflows, and patient populations.",
   },
   {
     question: "What does your pricing look like?",
