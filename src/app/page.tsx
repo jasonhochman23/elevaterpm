@@ -156,10 +156,6 @@ export default function HomePage() {
         <div className="container-custom">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div>
-              <div className="inline-flex items-center gap-2 bg-white/10 border border-white/20 rounded-full px-4 py-1.5 text-[13px] font-medium text-white/90 mb-6">
-                <span className="w-[7px] h-[7px] bg-green rounded-full animate-pulse-dot"></span>
-                Licensed Clinical RPM Management
-              </div>
               <h1 className="font-serif text-[clamp(36px,5vw,58px)] leading-[1.08] text-white mb-5">
                 Your RPM Program Should Be Working.<br/>
                 <em className="text-blue-light">Is It?</em>
