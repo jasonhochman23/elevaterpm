@@ -182,7 +182,7 @@ export default function HomePage() {
 
             {/* Value Prop Card */}
             <div className="bg-white/[0.06] border border-white/[0.14] rounded-[16px] p-5 backdrop-blur-[12px]">
-              <div className="text-xs font-semibold tracking-[2px] uppercase text-white/50 mb-4">
+              <div className="text-base font-bold tracking-[1.5px] uppercase text-white mb-4">
                 The ElevateRPM Difference
               </div>
               <div className="space-y-2.5">
